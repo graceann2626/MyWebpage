@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onitsuka Shoes</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header>
+        <h1>Welcome to Our Online Shoes Store</h1>
+        <p>Find the best shoe you want</p>
+        <div class="bg">
+            <img src="onitsukalogo.png" alt="" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="womenshoe.html">Women Shoes</a></li>
+                <li><a href="kidshoe.html">KID Shoes</a></li>
+                <li><a href="Shoes.html">Men's Shoe</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+        </nav>
+</header>
+
+<div class="container">
+    <h2>Featured Products <i style="color: blue;"><u>Kid's Shoes</u></i></h2>
+    <div class="product-list">
+        <div class="product">
+            <img src="mexico66.webp" alt="">
+            <h3>MEXICO 66 KIDS SANDAL</h3>
+            <p>High quality shoes Mexico 66 Black/Black KIDS SANDAL</p>
+            <p class="price">₱3,800</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="tigeryellow.webp" alt="">
+            <h3>MEXICO 66 KIDS</h3>
+            <p>High quality shoes Mexico 66 Tiger Yellow/Black Onitsuka Tiger</p>
+            <p class="price">₱4,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+                <img src="beigeonit.webp" alt="">
+            <h3>MEXICO 66 KIDS</h3>
+            <p>High quality shoes Mexico 66 Beiga/Green Onitsuka Tiger</p>
+            <p class="price">₱4,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="creamonit.webp" alt="">
+            <h3>MEXICO 66 KIDS</h3>
+            <p>High quality shoes Mexico 66 Cream/Rover Onitsuka Tiger</p>
+            <p class="price">₱4,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="kidsserrano.webp" alt="">
+            <h3>Serrano Kids</h3>
+            <p>High quality shoes PINK RAVE/CREAM Serrano</p>
+            <p class="price">₱5,400</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="habanero.webp" alt="">
+            <h3>Serrano Kids</h3>
+            <p>High quality shoes HABANERO/BIRCH Serrano</p>
+            <p class="price">₱5,390</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="ivory.webp" alt="">
+            <h3>Serrano Kids</h3>
+            <p>High quality shoes IVORY/WOOD CREPE Serrano</p>
+            <p class="price">₱5,400</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="admix.webp" alt="">
+            <h3>ADMIX RUNNER KIDS</h3>
+            <p>High quality shoes  VELVET PINE/BREEZE ADMIX RUNNER KIDS</p>
+            <p class="price">₱6,100</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="oyster.webp" alt="">
+            <h3>ADMIX RUNNER KIDS</h3>
+            <p>High quality shoes  OYSTER GREY/LICORICE BROWN ADMIX RUNNER KIDS</p>
+            <p class="price">₱6,100</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="admixcream.webp" alt="">
+            <h3>ADMIX RUNNER KIDS</h3>
+            <p>High quality shoes CREAM/VIBRANT YELLOW ADMIX RUNNER KIDS</p>
+            <p class="price">₱5,690</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="66ts.webp" alt="">
+            <h3>MEXICO 66 TS ROYAL AZEL</h3>
+            <p>High quality shoes ROYAL AZEL/ROYAL AZEL</p>
+            <p class="price">₱3,590</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="graphite.webp" alt="">
+            <h3>MEXICO 66 TS ROYAL AZEL</h3>
+            <p>High quality shoes GRAPHITE GREY/GRAPHITE GREY AZEL</p>
+            <p class="price">₱3,590</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const buttons = document.querySelectorAll('.add-to-cart');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Product added to cart!');
+        });
+    });
+</script>
+
+</body>
+</html>

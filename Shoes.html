@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onitsuka Shoes</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header>
+        <h1>Welcome to Our Online Shoes Store</h1>
+        <p>Find the best shoe you want</p>
+        <div class="bg">
+            <img src="onitsukalogo.png" alt="" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="womenshoe.html">Women Shoes</a></li>
+                <li><a href="kidshoe.html">KID Shoes</a></li>
+                <li><a href="Shoes.html">Men's Shoe</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+</header>
+
+<div class="container">
+    <h2>Featured Products <i style="color: blue;"><u>Men's Shoes </u></i></h2>
+    <div class="product-list">
+        <div class="product">
+            <a href="">
+                <img src="onitsukawhite.webp" alt="">
+            </a>
+            <h3>Onitsuka White/Black</h3>
+            <p>High quality shoes Mexico 66 White/Black Onitsuka Tiger</p>
+            <p class="price">₱8,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="onitsukablack.webp" alt="">
+            <h3>Onitsuka Black/White</h3>
+            <p>High quality shoes Mexico 66 Black/White Onitsuka Tiger</p>
+            <p class="price">₱8,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <a href="onitsukayellow.html">
+                <img src="initsuka.webp " alt="">
+            </a> 
+            <h3>Onitsuka Tiger</h3>
+            <p>High quality shoes Mexico 66 Yellow/Black Onitsuka Tiger</p>
+            <p class="price">₱8,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="onitsukawhiteblue.webp" alt="">
+            <h3>Onitsuka White/Blue</h3>
+            <p>High quality shoes Mexico 66 White/Blue Onitsuka Tiger</p>
+            <p class="price">₱8,600</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="serrano.jpg" alt="">
+            <h3>Serrano</h3>
+            <p>High quality shoes Black/White Serrano</p>
+            <p class="price">₱7,400</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="paleserrano.webp" alt="">
+            <h3>Serrano</h3>
+            <p>High quality shoes Pale Beige/Whitee Serrano</p>
+            <p class="price">₱5,390</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="burntserrano.webp" alt="">
+            <h3>Serrano</h3>
+            <p>High quality shoes Burnt Olive/White Serrano</p>
+            <p class="price">₱7,400</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="gsmsd.webp" alt="">
+            <h3>GSM SD</h3>
+            <p>High quality shoes Black/Black GSM SD</p>
+            <p class="price">₱7,990</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="GSMWHITE.webp" alt="">
+            <h3>GSM SD</h3>
+            <p>High quality shoes GSM SD All White</p>
+            <p class="price">₱7,990</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="edr.jpg" alt="">
+            <h3>EDR 78</h3>
+            <p>High quality shoes Beet Juice/Cromee Yellow EDR 78</p>
+            <p class="price">₱5,690</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="edr78.webp" alt="">
+            <h3>EDR 78</h3>
+            <p>High quality shoes Midnight/Classic Red EDR 78</p>
+            <p class="price">₱8,000</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="EEDRGLCIER.webp" alt="">
+            <h3>EDR 78</h3>
+            <p>High quality shoes Glacieer Grey/Cream EDR 78</p>
+            <p class="price">₱8,000</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const buttons = document.querySelectorAll('.add-to-cart');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Product added to cart!');
+        });
+    });
+</script>
+
+</body>
+</html>
